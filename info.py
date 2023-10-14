@@ -34,7 +34,7 @@ PORT = int(environ.get('PORT', '8080'))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '6184402222 6315836859 5058218483 6696298084')
+ADMINS = environ.get('ADMINS', '6184402222 6315836859 5058218483 6696298084 6184402222')
 if len(ADMINS) == 0:
     logging.error('ADMINS is missing, exiting now')
     exit()
@@ -43,8 +43,8 @@ else:
 
 # Channels
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
-AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001811890195').split()]
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1001881424294')
+AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001907234325').split()]
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1001977338673')
 if len(LOG_CHANNEL) == 0:
     logging.error('LOG_CHANNEL is missing, exiting now')
     exit()
@@ -60,17 +60,17 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TROJANMOVIES')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/TROJAN_BOTS')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+L4LupmNkuvZlZThl')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/R00T_BOTS')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
-SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
+SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "False"), False)
 SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), False)
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
-WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "true")), true)
+WELCOME = is_enabled((environ.get('WELCOME', "true")), true)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 LINK_MODE = is_enabled(environ.get("LINK_MODE", "True"), True)
@@ -87,7 +87,7 @@ WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/TROJAN_BOTS")
 
 # stream features vars
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001743390831")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001612836755")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
