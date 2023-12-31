@@ -92,7 +92,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ 🚫"""
 
-    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
+    WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! for more bots join @SUbotUpdates💞"""
 
     HELP_TXT = """<b>Note - <spoiler>Try each command without any argument to see more details 😹</spoiler></b>"""
     
@@ -136,8 +136,8 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://github.com/HansakaAnuhas-TG/AutoFilterBot-Beta>ʜᴇʀᴇ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://telegram.me/SUbotUpdates>ʜᴇʀᴇ</a>
 
 ᴅᴇᴠʟᴏᴘᴇʀ -
-<a href=https://telegram.me/Hansaka_Anuhas>ʜᴀɴsᴀᴋᴀ</a>
-<a href=https://telegram.me/Technicalaks123>ᴀᴋs</a></b>"""
+<a href=https://telegram.me/SUbotUpdates>ʜᴀɴsᴀᴋᴀ</a>
+<a href=https://telegram.me/SUbotUpdates>ᴀᴋs</a></b>"""
