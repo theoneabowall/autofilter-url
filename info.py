@@ -43,8 +43,8 @@ else:
 
 # Channels
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
-AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001907234325').split()]
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1001977338673')
+AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1002050810067').split()]
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002103166475')
 if len(LOG_CHANNEL) == 0:
     logging.error('LOG_CHANNEL is missing, exiting now')
     exit()
@@ -52,7 +52,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb://clnnnarvp0008a5oah3rkg5kq:IXZVhMxxld4MpWcteWKn2WaO@104.237.3.174:9002/?readPreference=primary&ssl=false")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb://clqt8mql20004avqqgi29crs7:JL3dK2m5lA9GLTFwu1RMmzX9@104.251.219.220:9000/?readPreference=primary&ssl=false")
 if len(DATABASE_URL) == 0:
     logging.error('DATABASE_URL is missing, exiting now')
     exit()
@@ -61,7 +61,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+L4LupmNkuvZlZThl')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/R00T_BOTS')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/SUbotUpdates')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
@@ -84,10 +84,10 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "0")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/TROJAN_BOTS")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/SUbotUpdates")
 
 # stream features vars
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001612836755")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002006752390")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()

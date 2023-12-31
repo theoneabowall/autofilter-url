@@ -7,7 +7,7 @@ class script(object):
 ★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
 
     MY_OWNER_TXT = """★ Name: Hansaka Anuhas
-★ Username: @R00T_BOTS
+★ Username: @SUbotUpdates
 ★ ID: <code>5493832202</code>
 ★ Country: Sri Lanka 🇱🇰"""
 
